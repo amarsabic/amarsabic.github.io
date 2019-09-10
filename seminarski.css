@@ -319,7 +319,7 @@ button {
 
 /*MOBILE RESPONSIVE*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     html,
     body {
         overflow-x: hidden;
@@ -443,5 +443,8 @@ button {
     }
     button {
         display: none;
+    }
+    .mailPage {
+        margin: 30px 50px 30px 50px;
     }
 }

@@ -377,7 +377,7 @@ button {
     .nav_links a {
         font-size: 17px;
     }
-    button:last-child {
+    /* button:nth-child(2) {
         padding: 9px 25px;
         background-color: rgba(0, 136, 169, 1);
         border: none;
@@ -387,7 +387,7 @@ button {
         top: 0px;
         right: 0px;
         margin: 30px 20px 0px 0px;
-    }
+    }*/
     #myName {
         text-transform: uppercase;
         font-size: 40px;
@@ -446,5 +446,13 @@ button {
     }
     .mailPage {
         margin: 30px 50px 30px 50px;
+    }
+    .submit {
+        display: block;
+        border: none;
+        border-radius: .25rem;
+        background-color: #3d3d3d;
+        margin-top: 7px;
+        font-size: 15px;
     }
 }

@@ -33,7 +33,7 @@
                         </ul>
                     </nav>
                 </div>
-                <a class="contactBtn" href="#footer-title"><button id="contactBtn">Contact</button></a>
+                <a class="contactBtn" href="#email-title"><button id="contactBtn">Contact</button></a>
                 <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -108,6 +108,7 @@
         </div>
         <!-- EDUCATION END-->
 
+        <!-- FOOTER START-->
         <div class="footer">
             <a href="#"><img src="imgs/amarjp.jpg" id="imgAmar" alt=""></a>
             <div id="footer-title">Stay connected</div>
@@ -119,6 +120,25 @@
                 <a href="https://www.linkedin.com/in/amarsabic/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
             </div>
         </div>
+        <!-- FOOTER END-->
+
+        <!--MAILPAGE START-->
+        <div class="mailPage">
+            <form class="mailForm" action="mailForm.php" method="POST">
+                <div id="email-title">Send me an email</div>
+                <p>Name</p>
+                <input type="text" name="name">
+                <p>Email</p>
+                <input type="text" name="email">
+                <p>Subject</p>
+                <input type="text" name="subject">
+                <p>Message</p>
+                <textarea name="message" id="" rows="6" placeholder=". . ."></textarea>
+                <button class="submit">Submit</button>
+            </form>
+
+        </div>
+        <!--MAILPAGE END-->
 
         <!-- FOOTER LAST START-->
         <div class="footer-last">
@@ -131,7 +151,7 @@
                 <p>|</p>
                 <li><a href="#skill-title">Skills</a></li>
                 <p>|</p>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#email-title">Contact</a></li>
 
             </ul>
         </div>

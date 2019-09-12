@@ -12,7 +12,26 @@
     <link rel="shortcut icon" type="image/png" href="imgs/amaricon.png">
 
     <title>Amar Šabić</title>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+        function sendEmail() {
+            var emailFrom = document.getElementsByName('email');
+            var subject = document.getElementsByName('subject');
+            var message = document.getElementsByName('message');
+
+            Email.send({
+                SecureToken: "7be2a568-ed40-42a3-a93e-60e95ee391b",
+                To: 'amarsabic5@gmail.com',
+                From: 'amar.sabic@edu.fit.ba',
+                Subject: 'asdasdsad',
+                Body: 'asdasdsad'
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
 </head>
+
 
 <body>
     <div class="wrapper">
@@ -124,7 +143,7 @@
 
         <!--MAILPAGE START-->
         <div class="mailPage">
-            <form class="mailForm" action="mailForm.php" method="POST">
+            <form class="mailForm">
                 <div id="email-title">Send me an email</div>
                 <p>Name</p>
                 <input type="text" name="name">
@@ -134,7 +153,7 @@
                 <input type="text" name="subject">
                 <p>Message</p>
                 <textarea name="message" id="" rows="6" placeholder=". . ."></textarea>
-                <button class="submit">Submit</button>
+                <button class="submit" onclick="sendEmail()">Submit</button>
             </form>
 
         </div>

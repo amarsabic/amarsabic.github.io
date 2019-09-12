@@ -349,15 +349,23 @@ button {
         position: absolute;
         right: 0;
         top: 0;
-        padding: 15px;
+        padding: 10px;
+    }
+    .fa-bars {
+        font-size: 25px;
+        color: #212529;
     }
     .navbar:first-child {
         background-color: #191919;
+    }
+    .colorBlack {
+        color: #212529 !important;
     }
     .nav_links {
         padding: 0px;
         margin: 0px;
         display: block;
+        background-color: #ffffff;
     }
     .nav_links li {
         display: block;
@@ -366,7 +374,7 @@ button {
         padding-bottom: 10px;
         border-bottom: 1px solid #edf0f1;
         text-align: center;
-        color: #191919;
+        color: #edf0f1;
     }
     .nav_links li:first-child {
         padding-top: 15px;

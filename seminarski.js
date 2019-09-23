@@ -26,6 +26,7 @@ for (var i = 0; i < getCollapsible.length; i++) {
         if (collContent.style.maxHeight) {
             collContent.style.maxHeight = null;
             collContent.style.transition = "500ms";
+            collContent.style.padding = "0px";
         } else {
             collContent.style.maxHeight = collContent.scrollHeight + "px";
             collContent.style.transition = "500ms";

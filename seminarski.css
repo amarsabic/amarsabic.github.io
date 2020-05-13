@@ -122,10 +122,11 @@ button {
 }
 
 #aboutMe-title,
-#education-title {
+#education-title,
+#carpool-title {
     font-size: 30px;
     text-transform: uppercase;
-    padding: 80px 0px 60px 80px;
+    padding: 80px 0px 30px 80px;
     letter-spacing: 5px;
 }
 
@@ -133,7 +134,8 @@ button {
     color: #191919;
 }
 
-#aboutMe-description {
+#aboutMe-description,
+#carpool-description {
     font-size: 20px;
     margin-left: 80px;
     margin-right: 80px;
@@ -144,7 +146,7 @@ button {
 .aboutMe-skills {
     display: flex;
     justify-content: center;
-    padding-bottom: 80px;
+    padding-bottom: 10px;
 }
 
 .aboutMe-skills li {
@@ -157,6 +159,19 @@ button {
 
 #skill-title {
     font-size: 20px;
+}
+
+.carpool-icons {
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.carpool-icons i {
+    padding: 10px;
+}
+
+.carpool-icons i:hover {
+    opacity: 0.7;
 }
 
 

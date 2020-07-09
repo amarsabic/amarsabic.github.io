@@ -134,13 +134,17 @@ button {
     color: #191919;
 }
 
+.aboutMe-apps {
+    padding-bottom: 30px;
+}
+
 #aboutMe-description,
 #carpool-description {
     font-size: 20px;
     margin-left: 80px;
     margin-right: 80px;
     font-weight: 300;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .aboutMe-skills {
